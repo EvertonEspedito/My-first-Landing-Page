@@ -1,0 +1,558 @@
+*{
+    margin: 0;
+    padding: 0;
+    block-size: border-box;
+}
+
+html,body{
+    height: 100%;
+    font-family: 'EB Garamond', serif;
+}
+
+.clear{
+    clear: both;
+}
+
+
+/**HEADER**/
+header{
+    background-image: url('../imagens/bgheader.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 700px;
+    
+}
+
+#social{
+    width: 100%;
+    position: relative;
+    top: -18px;
+    
+}
+
+#social a{
+    margin-top: 5px;
+    float: right;
+    padding-right: 1.5%;
+}
+
+#social a img{
+    height: 20px;
+    width: 20px;
+}
+
+#social a img:hover{
+    width: 30px;
+    height: 30px;
+    transition: 0.5s;
+}
+
+#logo{
+    width: 10%;
+    position: relative;
+    float: left;
+    
+}
+
+#logo img{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+header #content{
+   padding: 20px 2%;
+   margin-bottom: 40px;
+   backdrop-filter: blur(5px);
+   
+   
+}
+
+#menu{
+    width: 60%;
+    float: right;
+}
+
+#menu ul{
+    list-style: none;
+    display: flex;
+    float: right;
+    margin-right: 20%;
+    position: relative;
+    top: -20px;
+}
+
+#menu ul li{
+    padding-right: 35%;
+    font-size: 15px;
+}
+
+#menu ul li:hover{
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+#menu ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+
+nav#menu-mobile{
+    background-image: url("../imagens/menumobi.png");
+    background-repeat: no-repeat;
+    height: 40px;
+    width: 40px;
+    float: right;
+    cursor: pointer;
+    position: relative;
+    top: -20px;
+    display: none;
+}
+
+/**FIM HEADER**/
+
+/**INFO**/
+
+nav#info{
+    padding: 0px 3%;
+    
+}
+
+nav#info #info-warper{
+    max-width: 730px;
+    color: white;
+    
+}
+
+nav#info #info-warper h2{
+    margin-bottom: 50px;
+}
+
+nav#info #info-warper h2 strong{
+    color: rgb(204, 42, 42);
+}
+
+nav#info #info-warper p{
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+
+nav#info #info-warper button{
+    width: 220px;
+    height: 50px;
+    margin-top: 2%;
+    border: none;
+    border-radius: 19px;
+    background-color: rgb(204, 42, 42);
+    color: white;
+    font-weight: bold;
+    font-weight: 25px;
+}
+
+nav#info #info-warper button:hover{
+    width: 225px;
+    height: 55px;
+    transition: 0.5s;
+}
+
+/**FIM INFO**/
+
+/**SECTION PLANS**/
+
+section#section1{
+    padding: 20px 0%;
+}
+
+section#section1 .text{
+    width: 60%;
+    height: 60px;
+    text-align: center;
+    border-top:3px solid rgb(204, 42, 42);
+    margin: 0 auto;
+}
+
+section#section1 .text h4{
+    color:  rgb(204, 42, 42);
+}
+
+nav#plans-info{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    
+    position: relative;
+}
+
+nav#plans-info .content-plans{
+    width: 25%;
+    margin:auto;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+nav#plans-info .content-plans .text-plans{
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    background-color:rgb(204, 42, 42);
+}
+
+nav#plans-info .content-plans .list-group{
+    background-color: white;
+}
+
+nav#plans-info .content-plans .list-group .item-list{
+    display: flex;
+    padding: 8px ;
+}
+
+nav#plans-info .content-plans .list-group .item-list p{
+    padding-left: 10px;
+}
+
+nav#plans-info .content-plans img{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 5px;
+}
+
+nav#plans-info .content-plans .valor{
+    background-color: white;
+    text-align: center;
+    font-size: 18px;
+    width: 80%;
+    margin: 0 auto;
+    border-top: 2px solid black;
+    
+}
+
+nav#plans-info .content-plans .valor p{
+    vertical-align: middle;
+}
+/**SECTION 1 PLANS END**/
+
+/**SECTION 2 PARALLAX**/
+
+section#parallax{
+    padding: 90px 2%;
+    background-image: url(../imagens/parallax.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+section#parallax .center{
+    margin: 0 auto;
+    width: 70%;
+    position: relative;
+    top: 30%;
+    color: white;
+}
+
+section#parallax .center h2{
+    text-align: center;
+}
+
+/**SECTION 2 PARALLAX END**/
+
+/**SECTION 3 CONTACT**/
+
+section.finale-section{
+    padding: 80px 5%;
+    display: flex;
+}
+
+section.finale-section h2{
+    text-align: center;
+}
+
+section.finale-section .contato h2{
+    text-align: start;
+}
+
+section.finale-section .contato{
+    width: 40%;
+}
+
+section.finale-section .contato form{
+    width: 100%;
+}
+
+section.finale-section .contato form input{
+    width: 60%;
+    height: 40px;
+    outline: none;
+    border-radius: 7px;
+    border: 1px solid black;
+    margin-top: 15px;
+    padding: 1%;
+}
+
+.contato form textarea{
+    resize: none;
+    width: 60%;
+    height: 140px;
+    margin-top: 20px;
+    border: 1px solid black;
+    outline: none;
+    padding: 1%;
+}
+input.button {
+    background-color:  rgb(204, 42, 42);
+    border-radius: 30px;
+    border: 0;
+    outline: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 14px;
+    width: 100px;
+    height: 33px;
+    
+}
+
+.finale-section div.time{
+    margin-left: 3%;
+    width: 60%;
+    
+}
+
+.finale-section div.time .team{
+    display: flex;
+    position: relative;
+    top: 10px;
+    width: 100%;
+}
+
+.finale-section div.time .team .team-wrapper{
+    width: 50%;
+    margin-left: 5%;
+    padding: 1%;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.finale-section div.time .team .team-wrapper .info{
+    display: flex;
+}
+
+.finale-section div.time .team .team-wrapper .info .foto {
+    height: 40px ;
+    width: 40px;
+    background-color: gray;
+    border-radius: 100% 100% ;
+    margin-right: 9px;
+}
+
+/**SECTION 3 CONTACT END**/
+
+/**FOOTER**/
+
+footer{
+    padding: 20px 10%;
+    background-color: rgb(204, 42, 42);
+    text-align: center;
+    color: white;
+}
+
+footer p{
+    
+}
+
+/**FOOTER END**/
+
+/**RESPONSIVO**/
+
+@media screen and (max-width: 1000px){
+    section.finale-section{
+        padding: 80px 2%;
+        display: block;
+    }
+
+    section.finale-section .contato{
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    section.finale-section .contato form input{
+        width: 80%;
+        
+    }
+
+    section.finale-section .contato form textarea{
+        width: 80%;
+    }
+
+    section.finale-section .contato h2{
+        text-align: center;
+    }
+    .finale-section div.time{
+        margin: 30px auto;
+        width: 100%;
+    }
+
+    .finale-section div.time .team .team-wrapper{
+        width: 50%;
+        margin-left: 1%;
+        padding: 1%;
+
+    }
+
+    .finale-section div.time .team{
+        display: flex;
+        position: relative;
+        top: 10px;
+    }
+
+    
+}
+
+@media screen and (max-width: 808px){
+    nav#plans-info .content-plans{
+        width: 33%;
+        margin:auto;
+        cursor: pointer;
+        border: 1px solid black;
+    }
+
+    section#section1 .text{
+        width: 60%;
+        text-align: center;
+        border-top:3px solid rgb(204, 42, 42);
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 768px){
+    ul#menu-desk{
+        display: none;
+    }
+
+    nav#menu-mobile{
+        display: block;
+        position: relative;
+        top: -40px;
+    }
+    #social {
+        top: 10px;
+        float: none;
+        width: 100%;
+        height: 30px;
+        text-align: center;
+        position: relative;
+    }
+
+    #social a {
+        float: none;
+    }
+
+    #social a img{
+        height: 30px;
+        width: 30px;
+    }
+
+    nav#menu-mobile ul{
+        width: 90vw;
+        height: 50vh;
+        display: inline;
+        position: relative;
+        left: -80%;
+        top: 12%;
+        text-align: center;
+        display: none;
+       
+    }
+
+    nav#menu-mobile ul li{
+        padding: 22px 10px;
+        border-bottom: 1px  solid black;
+        font-size: 15px;
+        background-color:rgb(179, 179, 179);
+    }
+
+    nav#menu-mobile ul li a{
+        padding:24px 120px;
+    }
+
+    nav#plans-info{
+        background-color: white;
+        width: 100%;
+        display: block;
+        top: 30px;
+        position: relative;
+    }
+
+    nav#plans-info .content-plans{
+        width: 50%;
+        margin:auto;
+        cursor: pointer;
+        border: 1px solid black;
+        position: relative;
+        margin-top: 6px;
+    }
+   
+    nav#plans-info .content-plans{
+        width: 90%;
+        margin:auto;
+        cursor: pointer;
+        border: 1px solid rgb(207, 207, 207);
+        position: relative;
+        margin-top: 6px;
+    }
+
+    section#section1 .text{
+        width: 60%;
+        text-align: center;
+        border-top:3px solid rgb(204, 42, 42);
+        margin: 0 auto;
+    }
+
+}
+
+@media screen and (max-width: 550px){
+    .finale-section div.time .team{
+        display: block;
+        position: relative;
+        top: 10px;
+    }
+
+    .finale-section div.time .team .team-wrapper{
+        width: 80%;
+        margin-left: 0%;
+        margin: 0 auto;
+        padding: 1%;
+        border: 1px solid black;
+        cursor: pointer;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 470px){
+    nav#plans-info .content-plans{
+        width: 90%;
+        margin:auto;
+        cursor: pointer;
+        border: 1px solid black;
+        position: relative;
+        margin-top: 6px;
+    }
+    section#section1 .text{
+        width: 90%;
+        text-align: center;
+        border-top:3px solid rgb(204, 42, 42);
+        margin: 0 auto;
+    }
+}
+
+
+
+
+    
